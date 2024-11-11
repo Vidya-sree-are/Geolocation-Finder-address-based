@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 # Your Azure Maps API key
-azure_maps_api_key = '7ca18449-ad0b-442d-af74-ddd0d1bbde26'
+azure_maps_api_key = 'your_azure_key'
 
 # Function to get GPS coordinates from Azure Maps Geocoding API
 def get_location_details_azure_maps(address):
