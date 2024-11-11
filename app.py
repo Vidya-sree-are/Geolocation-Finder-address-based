@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 # Your OpenCage API key
-opencage_api_key = 'dc5b6d17c41f4e909557a0d270ecd91e'
+opencage_api_key = 'your_api_key'
 
 # Function to get GPS coordinates from OpenCage Geocoding API
 def get_location_details_opencage(address):
