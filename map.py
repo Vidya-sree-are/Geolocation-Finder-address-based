@@ -16,8 +16,8 @@ def get_mapmyindia_token(client_id, client_secret):
         print("Failed to get access token:", response.status_code)
         return None
 
-client_id = '96dHZVzsAuuL1o46Qv2yxIrLRs5PSk7N8OMNkJj0bNSTsIH6AFFLvqFJeut-iJxSTQg2_yIubo0PB4azzuf7jA=='  # Replace with your MapMyIndia client_id
-client_secret = 'lrFxI-iSEg_IMxmq3N40NFgWQ9PJgUxiLn3a7VjDIukZwbxaGEyGXuC56wBN-lo3uzX5TUJN7xralHchiL6lL5vyO2iVRuEl'  # Replace with your MapMyIndia client_secret
+client_id = ''  # Replace with your MapMyIndia client_id
+client_secret = ''  # Replace with your MapMyIndia client_secret
 access_token = get_mapmyindia_token(client_id, client_secret)
 
 if access_token:
